@@ -65,7 +65,7 @@ jobs:
         run: git add '**/*.rb'
 
       - name: Commit formatted changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "automated code fixes and formatting by rubocop"
           file_pattern: '**/*.rb'
